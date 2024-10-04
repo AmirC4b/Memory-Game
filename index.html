@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Memory Game</h1>
+        <div class="timer">Time: 0:00</div>
+    </div>
+
+    <div class="game-container">
+        <div class="card" data-card="cat"><img src="./img/cat.jfif"></div>
+        <div class="card" data-card="cat"><img src="./img/cat.jfif"></div>
+        <div class="card" data-card="dog"><img src="./img/dog.jfif"></div>
+        <div class="card" data-card="dog"><img src="./img/dog.jfif"></div>
+        <div class="card" data-card="green"><img src="./img/green.jfif"></div>
+        <div class="card" data-card="green"><img src="./img/green.jfif"></div>
+        <div class="card" data-card="images"><img src="./img/images.jfif"></div>
+        <div class="card" data-card="images"><img src="./img/images.jfif"></div>
+        <div class="card" data-card="man"><img src="./img/man.jfif"></div>
+        <div class="card" data-card="man"><img src="./img/man.jfif"></div>
+        <div class="card" data-card="pink"><img src="./img/pink.jfif"></div>
+        <div class="card" data-card="pink"><img src="./img/pink.jfif"></div>
+        <div class="card" data-card="pishro"><img src="./img/pishro.jfif"></div>
+        <div class="card" data-card="pishro"><img src="./img/pishro.jfif"></div>
+        <div class="card" data-card="sleep"><img src="img/sleep.jfif"></div>
+        <div class="card" data-card="sleep"><img src="img/sleep.jfif"></div>
+    </div>
+
+    <div id="winModal" class="modal">
+        <div class="modal-content">
+            <h2>YOU WIN!</h2>
+            <p class="win-time">Time: 0:00</p>
+            <button onclick="restartGame()">Restart Game</button>
+        </div>
+    </div>
+
+</body>
+</html>
