@@ -114,6 +114,7 @@ function restartGame() {
     seconds = 0;
     matchedPairs = 0;
     timerElement.textContent = 'Time: 0:00';
+    location.reload();
 
     cards.forEach(card => {
         card.classList.remove('flipped');
